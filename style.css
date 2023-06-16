@@ -131,7 +131,7 @@ transition: .3s linear;
  }
 
  header .menu_side .menu_song li:hover {
-background: rgb(105, 105, 105), .1;
+background: rgb(105, 105, 105, .1);
 }
 
 header .menu_side .menu_song li span{
@@ -252,4 +252,40 @@ header .master_play .icon {
     font-size: 20px;
 color: #fff;
 margin: 0px 20px 0px 40px;
+outline: none;
+display: flex;
+align-items: center;
+}
+header .master_play .icon .bi {
+    cursor: pointer;
+    outline: none;
+}
+header .master_play .icon .shuffle {
+    font-size: 17px;
+    margin-right: 10px;
+    width: 17.5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+header .master_play .icon #download_music {
+    font-size: 20px;
+    margin-left: 10px;
+}
+header .master_play .icon .bi:nth-child(3) {
+    border: 1px solid rgb(105, 105, 105, .1);
+    border-radius: 50%;
+    padding: 1px 5px 0px 7px;
+    margin: 0px 5px;
+}
+header .master_play span {
+    color: #fff;
+    width: 32px;
+   /* border: 1px solid #fff;*/
+    font-size: 11px;
+    font-weight: 400;
+}
+header .master_play #currentStart {
+    margin: 0px 0px 0px 20px;
+    
 }
