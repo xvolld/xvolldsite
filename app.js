@@ -1,4 +1,4 @@
- const music = new Audio ('audio/stontel.mp3')
+ const music = new Audio ('audio/taumaya.mp3')
 //  music.play();
 
 const songs = [
