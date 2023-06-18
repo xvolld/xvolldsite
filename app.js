@@ -1,4 +1,4 @@
- const music = new Audio ('audio/1.mp3')
+ const music = new Audio ('audio/stontel.mp3')
 //  music.play();
 
 const songs = [
@@ -26,11 +26,11 @@ const songs = [
 
 
 
-Array.from(Document.getElementsByClassName('songItem')).forEach((e, i,) =>{
-    e.getElementsByTagName('img')[0].src = songs[i].poster;
-    e.getElementsByTagName('h5')[0].innerHTML = songs[i].songName;
+// Array.from(Document.getElementsByClassName('songItem')).forEach((e, i,) =>{
+//     e.getElementsByTagName('img')[0].src = songs[i].poster;
+//     e.getElementsByTagName('h5')[0].innerHTML = songs[i].songName;
 
-});
+// });
 
 
 let masterPlay = document.getElementById('masterPlay');
